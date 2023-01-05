@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Lato:wght@900&display=swap");
+
+
+h1 {
+  font-family: 'Mode Seven';
+  color: white;
+  font: 2.8rem Inconsolata, monospace;
+  text-shadow: 0 0 5px #C8C8C8;
+  padding-left: 14px;
+}
+
+body {
+  background: radial-gradient(circle, #42860d 0%, #1d251c 100%);
+}
+
+label {
+  font-family: Inconsolata, monospace;
+  color: white;
+  text-shadow: 0 0 5px #C8C8C8;
+}
+
+ul li::before {
+  content: "\2022";
+  color: limegreen;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  text-shadow: none;
+}
+
+li {
+  text-shadow: 0 0 5px #C8C8C8;
+  font-family: Inconsolata, monospace;
+}
+
+a:hover {
+  color: white;
+}
+
+a {
+  color: limegreen;
+}
+
+select {
+  font-family: Inconsolata, monospace;
+  text-shadow: 0 0 5px #C8C8C8;
+  background-color: limegreen;
+  border: none;
+  border-radius: 25px;
+  color: white;
+}

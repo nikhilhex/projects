@@ -34,11 +34,11 @@ li {
   font-family: Inconsolata, monospace;
 }
 
-a:hover {
+#a:hover {
   color: white;
 }
 
-a {
+#a {
   color: limegreen;
 }
 

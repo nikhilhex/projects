@@ -11,6 +11,7 @@ function alphabeticalOrder(count) {
   for (let i = 0; i < count; i++) {
     let element = document.createElement("li");
     let uri = document.createElement("a");
+    uri.id = "a";
     uri.href = data[i].html_url;
     uri.innerText = data[i].name;
     element.appendChild(uri);
@@ -31,6 +32,7 @@ function newest(count) {
   for (let x = 0; x < count; x++) {
     let element = document.createElement("li");
     let uri = document.createElement("a");
+    uri.id = "a";
     uri.href = data[dateList[x][1]].html_url;
     uri.innerText = data[dateList[x][1]].name;
     element.appendChild(uri);
@@ -51,6 +53,7 @@ function oldest(count) {
   for (let x = 0; x < count; x++) {
     let element = document.createElement("li");
     let uri = document.createElement("a");
+    uri.id = "a";
     uri.href = data[dateList[x][1]].html_url;
     uri.innerText = data[dateList[x][1]].name;
     element.appendChild(uri);
@@ -71,6 +74,7 @@ function mostRecent(count) {
   for (let x = 0; x < count; x++) {
     let element = document.createElement("li");
     let uri = document.createElement("a");
+    uri.id = "a";
     uri.href = data[dateList[x][1]].html_url;
     uri.innerText = data[dateList[x][1]].name;
     element.appendChild(uri);

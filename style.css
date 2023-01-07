@@ -9,6 +9,7 @@ h1 {
   padding-left: 14px;
 }
 
+
 body {
   background: radial-gradient(circle, #42860d 0%, #1d251c 100%);
 }
@@ -58,6 +59,7 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #333;
+  font: Inconsolata, monospace;
 }
 
 .topnav a {
